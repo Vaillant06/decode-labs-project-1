@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Base&Beam</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./images/B&B.png" alt="Base&Beam">
+                <h1>Base&Beam</h1>
+            </div>
+
+            <ul class="navbar">
+                <li class="nav-item">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#procedure">Procedure</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <div>
+                <button id="visit">Visit Showroom</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="image-container">
+                <img src="./images/B&B.png" alt="Base&Beam">
+            </div>
+
+            <div class="description">
+                <h2>Building Tomorrow, One Beam at a Time</h2>
+                <p>
+                    Base&Beam is a forward-thinking construction and architectural solutions company dedicated to shaping the 
+                    future of built environments. We specialize in creating innovative, sustainable, and high-quality structures 
+                    that blend functionality with design excellence. Through expert planning, advanced construction techniques, 
+                    and a customer-first approach, we deliver projects that exceed expectations and create lasting value. Whether it's 
+                    a dream home, a commercial complex, or a large-scale infrastructure project, Base&Beam is committed to building 
+                    spaces where people live, work, and thrive.
+                </p>
+                <button id="hero-btn">Explore Projects</button>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1>Our Projects</h1>
+
+            <div class="row">
+                <div class="project-card">
+                    <div class="image-container">
+                        <img src="./images/project-3.webp" alt="Skyline Corporate Tower">
+
+                    </div>
+                    <h3>Skyline Corporate Tower</h3>
+
+                    <p>
+                        A 25-story commercial office complex designed to accommodate
+                        modern businesses with sustainable architecture and energy-efficient
+                        infrastructure. Completed within 18 months, the project now serves
+                        over 2,000 professionals and stands as a landmark of innovation
+                        and functionality.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="image-container">
+                        <img src="./images/project-4.webp" alt="Green Meadows Residential Community">
+                    </div>
+
+                    <h3>Green Meadows Residential Community</h3>
+
+                    <p>
+                        A premium residential development featuring over 150 modern homes,
+                        landscaped gardens, recreational facilities, and sustainable water
+                        management systems. The project was successfully delivered ahead of
+                        schedule and has become one of the region's most sought-after
+                        family communities.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="procedure">
+            <h1>How Do We Do?</h1>
+
+            <div>
+                <div class="row">
+                    <div class="image-container">
+                        <img src="./images/project-1.webp" alt="project-1">
+                    </div>
+
+                    <div class="description">
+                        <h3>Strategic Planning</h3>
+                        <p>
+                            Every successful project begins with a clear vision and a detailed plan. 
+                            At Base&Beam, we work closely with clients to understand their goals, 
+                            requirements, budget, and timeline. Our team conducts thorough site 
+                            analysis, feasibility studies, and architectural planning to ensure that 
+                            every detail is carefully considered before construction begins. Through 
+                            collaboration, innovation, and meticulous preparation, we create project 
+                            roadmaps that minimize risks and maximize efficiency.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="description">
+                        <h3>Precision Execution</h3>
+                        <p>
+                            Once the plan is finalized, our experienced engineers, architects, and 
+                            construction specialists bring it to life with precision and accountability. 
+                            From foundation work to final finishing touches, we maintain the highest 
+                            standards of quality, safety, and craftsmanship. Using modern construction 
+                            techniques, efficient project management, and continuous quality checks, 
+                            we ensure every project is delivered on time, within budget, and beyond 
+                            expectations.
+                        </p>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="./images/project-2.webp" alt="project-2">
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+        <section id="achievements">
+            <h1>Our Achievements</h1>
+
+            <div class="stat-grid">
+                <div class="stat">
+                    <h2>250+</h2>
+                    <p>Projects Completed</p>
+                </div>
+
+                <div class="stat">
+                    <h2>15+</h2>
+                    <p>Years of Experience</p>
+                </div>
+
+                <div class="stat">
+                    <h2>98%</h2>
+                    <p>Client Satisfaction</p>
+                </div>
+
+                <div class="stat">
+                    <h2>50+</h2>
+                    <p>Industry Awards</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="info">
+                <h1>Contact Us</h1>
+                <p>Fill this form and we will reach you out soon!</p>
+            </div>
+
+            <form class="form" id="contact-form">
+                <input type="text" placeholder="Full Name" required>
+
+                <input type="email" placeholder="Email Address" required>
+
+                <textarea placeholder="Tell us about your project"></textarea>
+
+                <button type="submit">Send Enquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy Base&Beam 2026. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
